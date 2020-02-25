@@ -4,6 +4,9 @@
     <avatar/>
     <gradient/>
     <todo-list/>
+    <todo-detail/>
+    <todo-editing/>
+    <floating-button />
   </div>
 </template>
 
@@ -12,12 +15,18 @@ import AppBar from '../components/AppBar.vue'
 import Avatar from '../components/Avatar.vue'
 import Gradient from '../components/Gradient.vue'
 import TodoList from '../components/TodoList.vue'
+import TodoDetail from '../components/TodoDetail.vue'
+import TodoEditing from '../components/TodoEditing.vue'
+import FloatingButton from '../components/FloatingButton.vue'
 export default {
   components:{
     "app-bar":AppBar,
     "avatar":Avatar,
     "gradient": Gradient,
     "todo-list":TodoList,
+    "todo-detail":TodoDetail,
+    "todo-editing":TodoEditing,
+    "floating-button":FloatingButton
   }
 }
 </script>

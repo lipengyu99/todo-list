@@ -5,7 +5,7 @@
         </div>
         <h2 class="avatar_name"> hello 鹏宇</h2>
         <p class="avatar_tips">
-           你今天看起来不错.<br/>有{{todayTasks}}件事情代办
+           你今天看起来不错.<br/>有{{todayTasks.length}}件事情代办
         </p>
         <p class="avatar_data"> 
             今日:{{today|dateString}}
